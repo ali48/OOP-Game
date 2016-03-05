@@ -12,6 +12,11 @@
 		132FB4A81C89394700E64730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132FB4A61C89394700E64730 /* Main.storyboard */; };
 		132FB4AA1C89394700E64730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132FB4A91C89394700E64730 /* Assets.xcassets */; };
 		132FB4AD1C89394700E64730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132FB4AB1C89394700E64730 /* LaunchScreen.storyboard */; };
+		132FB4B51C893A4D00E64730 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB4B41C893A4D00E64730 /* Character.swift */; };
+		132FB4B71C893C0D00E64730 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB4B61C893C0D00E64730 /* Player.swift */; };
+		132FB4B91C8A1F8F00E64730 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB4B81C8A1F8F00E64730 /* Enemy.swift */; };
+		132FB4BB1C8A218C00E64730 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB4BA1C8A218C00E64730 /* Kimara.swift */; };
+		132FB4BD1C8A310200E64730 /* Vader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB4BC1C8A310200E64730 /* Vader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		132FB4A91C89394700E64730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132FB4AC1C89394700E64730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		132FB4AE1C89394700E64730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132FB4B41C893A4D00E64730 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		132FB4B61C893C0D00E64730 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		132FB4B81C8A1F8F00E64730 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		132FB4BA1C8A218C00E64730 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		132FB4BC1C8A310200E64730 /* Vader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				132FB4A91C89394700E64730 /* Assets.xcassets */,
 				132FB4AB1C89394700E64730 /* LaunchScreen.storyboard */,
 				132FB4AE1C89394700E64730 /* Info.plist */,
+				132FB4B41C893A4D00E64730 /* Character.swift */,
+				132FB4B61C893C0D00E64730 /* Player.swift */,
+				132FB4B81C8A1F8F00E64730 /* Enemy.swift */,
+				132FB4BA1C8A218C00E64730 /* Kimara.swift */,
+				132FB4BC1C8A310200E64730 /* Vader.swift */,
 			);
 			path = "OOP-Game";
 			sourceTree = "<group>";
@@ -136,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132FB4BD1C8A310200E64730 /* Vader.swift in Sources */,
+				132FB4B71C893C0D00E64730 /* Player.swift in Sources */,
+				132FB4B91C8A1F8F00E64730 /* Enemy.swift in Sources */,
+				132FB4BB1C8A218C00E64730 /* Kimara.swift in Sources */,
+				132FB4B51C893A4D00E64730 /* Character.swift in Sources */,
 				132FB4A51C89394700E64730 /* ViewController.swift in Sources */,
 				132FB4A31C89394700E64730 /* AppDelegate.swift in Sources */,
 			);
